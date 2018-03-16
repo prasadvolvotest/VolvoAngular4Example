@@ -1,0 +1,30 @@
+<h2>Please find below List of VOLVO Employees are using Volvo cars</h2>
+<section class="tableContent">
+
+	<table>
+		<thead>
+			<tr>
+				<th>Emp Id</th>
+				<th>Name</th>
+				<th>Surname</th>
+				<th>Contact</th>
+				<th>DOB</th>
+				<th>Address</th>
+				<th>City</th>
+				<th>View</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let user of displayallUsers">
+				<td>{{user.id}}</td>
+				<td>{{user.name}}</td>
+				<td>{{user.surname}}</td>
+				<td>{{user.phone}}</td>
+				<td>{{user.birthDate}}</td>
+				<td>#{{user.number}} , {{user.street}}</td>
+				<td>{{user.city}}</td>
+				<td><span class="viewDetails" (click)="navigateToViewDetails(user.id)">View</span></td>
+			</tr>
+		</tbody>
+	</table>
+</section>

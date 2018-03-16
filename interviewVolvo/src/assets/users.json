@@ -1,0 +1,46 @@
+[
+{
+    "id": "0",
+    "name": "name0",
+    "surname": "surname0",
+    "birthDate": "24-8-1981",
+    "phone": "634523125",
+    "city": "Wroclaw",
+    "street": "Mydlana",
+    "number": "1",
+    "vehicle": "http://s1.1zoom.me/big0/935/Volvo_Bus_Green_536437_1280x847.jpg"
+},
+{
+    "id": "1",
+    "name": "name1",
+    "surname": "surname1",
+    "birthDate": "28-9-1983",
+    "phone": "812312312",
+    "city": "Warsaw",
+    "street": "Domaniewska",
+    "number": "2",
+    "vehicle": "https://c1.staticflickr.com/8/7443/12254670785_5b992b755e_k.jpg"
+},
+{
+    "id": "2",
+    "name": "name2",
+    "surname": "surname2",
+    "birthDate": "01-6-1983",
+    "phone": "987654412",
+    "city": "Wroclaw",
+    "street": "Mydlana",
+    "number": "2",
+    "vehicle": "https://straphanger.files.wordpress.com/2012/02/scania-citywide.png?w=1400&h=9999"
+},
+{
+    "id": "3",
+    "name": "name3",
+    "surname": "surname3",
+    "birthDate": "05-5-1978",
+    "phone": "812312312",
+    "city": "Wroclaw",
+    "street": "Himalajska",
+    "number": "4",
+    "vehicle": "http://www.wheelzonrent.in/wp-content/uploads/2018/02/Bus-On-Rent-Hire-In-Delhi.png"
+}
+]

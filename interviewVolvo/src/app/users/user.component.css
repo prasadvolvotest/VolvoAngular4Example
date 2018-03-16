@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.tableContent {
+	justify-content: center;
+    display: flex;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: cursive;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+thead tr {
+	background-color: #ff0000;
+} 
+
+th {
+	padding: 10px;
+}
+tr:nth-child(even) {background-color: #dddddd;}
+
+td {
+    padding: 10px 30px;
+}
+
+.viewDetails {
+    color: #2d7cf0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+}

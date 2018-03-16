@@ -1,0 +1,20 @@
+
+<h2>You clicked on the Employee Number : {{currEmployee}}</h2>
+
+<div *ngFor="let user of clickedUserDetails">
+	<div *ngIf="user.id == currEmployee">
+		<div class="main">
+			<img src='{{user.vehicle}}' alt="volvo vehicle" />
+			<section class="empDetails">
+				<div>E-Id: {{user.id}}</div>
+				<div>Name: {{user.name}}</div>
+				<div>Surname: {{user.surname}}</div>
+				<div>Contact: {{user.phone}}</div>
+				<div>DOB : {{user.birthDate}}</div>
+				<div>Address: #{{user.number}} , {{user.street}}</div>
+				<div>City: {{user.city}}</div>
+			</section>
+		</div>
+		
+	</div>
+</div>
